@@ -1,0 +1,42 @@
+# =========================
+# Java / Spring Boot
+# =========================
+target/
+*.class
+*.log
+
+# =========================
+# Maven
+# =========================
+.mvn/
+mvnw
+mvnw.cmd
+
+# =========================
+# IDE files
+# =========================
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Flutter / Dart
+# =========================
+.buildlog
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+
+# =========================
+# Environment files
+# =========================
+.env
+application-local.yml
