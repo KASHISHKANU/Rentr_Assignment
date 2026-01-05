@@ -1,52 +1,46 @@
-# Contractor Job & Work Order Management Module
+# Rentr Assignment – Flutter Web App
 
-## Tech Stack
-- Backend: Java, Spring Boot
-- Frontend: Flutter
-- Database: In-Memory / JPA
-- API Documentation: Swagger
+This repository contains the Flutter web application developed as part of the Rentr assignment.
 
----
-
-## Project Structure
-- backend/ : Spring Boot backend APIs
-- frontend/ : Flutter frontend application
-- Screenshots/ : UI screenshots for reference
-
----
-
-## End-to-End Workflow
-1. Agent creates a job
-2. Contractor views available jobs
-3. Contractor applies for job (Work Order)
-4. Agent approves and assigns contractor
-5. Contractor submits invoice after completion
-
----
-
-## Frontend
-The frontend is built using Flutter and includes:
+## Features Implemented
 - Agent Dashboard
 - Contractor Dashboard
-- Job listing & application
-- Invoice submission
+- Job Listing Screen
+- Invoice Submission Screen
+- Flutter Web navigation
 
-Screenshots of all screens are available in the `Screenshots/` folder.
+## Tech Stack
+- Flutter
+- Dart
+- Flutter Web
 
----
+## Project Structure
+frontend/
+ └── flutter_app/
+     └── lib/
+         ├── screens/
+         ├── services/
+         └── main.dart
 
-## Backend
-Spring Boot REST APIs handle:
-- Job management
-- Work order approvals
-- Invoice submission
+## How to Run
+```bash
+flutter pub get
+flutter run -d chrome
 
-Swagger UI:
-http://localhost:8080/swagger-ui.html
 
----
+## Screenshots
 
-## AI Usage Declaration
-AI tools were used for syntax assistance and boilerplate generation.
-All architectural decisions, workflow design, and implementation logic
-were independently made.
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Agent Dashboard
+![Agent](screenshots/agent_dashboard.png)
+
+### Job List
+![Jobs](screenshots/job_list.png)
+
+### Invoice Screen
+![Invoice](screenshots/invoice.png)
+
+### Contractor Dashboard
+![Contractor](screenshots/contractor_dashboard.png)
